@@ -2,7 +2,7 @@ $primary-color: #222;
 $secondary-color: #e6af2e;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
-$background-opacity: 0.7;
+$background-opacity: 0.9;
 $portrait-sm: url(../img/portrait-small.jpg);
 $portrait: url(../img/portrait.jpg);
 
@@ -29,6 +29,15 @@ $portrait: url(../img/portrait.jpg);
         z-index: -1;
       }
     }
+  }
+}
+
+//Set Text Color
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
   }
 }
 
