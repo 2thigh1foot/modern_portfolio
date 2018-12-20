@@ -44,7 +44,7 @@ $portrait: url(../img/portrait.jpeg);
 //Media Query Mixins
 //For phones
 @mixin mediaSm {
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 550px) {
     @content;
   }
 }
