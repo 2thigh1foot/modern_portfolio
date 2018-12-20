@@ -9,7 +9,7 @@ You can modify this website in any way or shape. I used Sass to generate the CSS
 ## Setting up the Package Json
 
 Once you get Node.js installed and ready, you'll want to get your package manager with these commands.
-In your terminal:__
+In your terminal: <br />
 run npm init__
 package name: (name of your package)__
 version: (1.0.0)__
