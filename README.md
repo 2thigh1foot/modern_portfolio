@@ -20,8 +20,7 @@ git repository:
 keywords:
 author: Your Name
 license:
-
-Markup: - - - -
+ --- 
 
 After that, you want to run npm i node-sass
 
@@ -29,7 +28,7 @@ This will create a node_modules folder. It's quite large
 
 Under scripts, you will want to look for the npm scripts. You can change the name to anything ("I called it sass"), and input the following command.
 
-Markup: ```javascript
+```javascript
 
 "name": "modern_portfolio2",
 "version": "1.0.0",
@@ -49,4 +48,3 @@ Markup: ```javascript
 To run the script:
 
 npm run sass
-```
