@@ -19,7 +19,8 @@ test command:<br />
 git repository:<br />
 keywords:<br />
 author: Your Name<br />
-license:<br />
+license: <br />
+
  --- 
 
 After that, you want to run:<br />
