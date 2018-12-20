@@ -175,7 +175,7 @@ main {
 .btn-light {
   @extend .btn;
   background: lighten($primary-color, 50);
-  color: #333;
+  color: #222;
 }
 
 #main-footer {
