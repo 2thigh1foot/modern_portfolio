@@ -9,17 +9,17 @@ You can modify this website in any way or shape. I used Sass to generate the CSS
 ## Setting up the Package Json
 
 Once you get Node.js installed and ready, you'll want to get your package manager with these commands.
-In your terminal:
-run npm init
-package name: (name of your package)
-version: (1.0.0)
-description: Responsive portfolio website
-entry point: (index.js)
-test command:
-git repository:
-keywords:
-author: Your Name
-license:
+In your terminal:__
+run npm init__
+package name: (name of your package)__
+version: (1.0.0)__
+description: Responsive portfolio website__
+entry point: (index.js)__
+test command:__
+git repository:__
+keywords:__
+author: Your Name__
+license:__
  --- 
 
 After that, you want to run npm i node-sass
