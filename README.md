@@ -4,29 +4,30 @@
 
 ## Getting Started
 
-You can modify this website in any way or shape. I used Sass to generate the CSS in these projects. To run Sass, you will wantt to get node.js so that you can use the Node Packet Manager (NPM).
+You can modify this website in any way or shape. I used Sass to generate the CSS in these projects. To run Sass, you will want to get node.js so that you can use the Node Packet Manager (NPM).
 
 ## Setting up the Package Json
 
-Once you get Node.js installed and ready, you'll want to get your package manager with these commands.
+Once you get Node.js installed and ready, you'll want to get your package manager with these commands.<br />
 In your terminal: <br />
-run npm init__
-package name: (name of your package)__
-version: (1.0.0)__
-description: Responsive portfolio website__
-entry point: (index.js)__
-test command:__
-git repository:__
-keywords:__
-author: Your Name__
-license:__
+run npm init <br />
+package name: (name of your package)<br />
+version: (1.0.0)<br />
+description: Responsive portfolio website<br />
+entry point: (index.js)<br />
+test command:<br />
+git repository:<br />
+keywords:<br />
+author: Your Name<br />
+license:<br />
  --- 
 
-After that, you want to run npm i node-sass
+After that, you want to run:<br />
+npm i node-sass<br />
 
-This will create a node_modules folder. It's quite large
+This will create a node_modules folder. It's quite large.<br />
 
-Under scripts, you will want to look for the npm scripts. You can change the name to anything ("I called it sass"), and input the following command.
+Under scripts, you will want to look for the scripts section in the package.json file. You can change the name to anything ("I called it sass"), and input the following command.<br />
 
 ```javascript
 
@@ -45,6 +46,6 @@ Under scripts, you will want to look for the npm scripts. You can change the nam
 
 ```
 
-To run the script:
+To run the script:<br />
 
 npm run sass
