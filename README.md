@@ -4,9 +4,13 @@
 
 ## Getting Started
 
+---
+
 You can modify this website in any way or shape. I used Sass to generate the CSS in these projects. To run Sass, you will want to get node.js so that you can use the Node Packet Manager (NPM).
 
 ## Setting up the Package Json
+
+---
 
 Once you get Node.js installed and ready, you'll want to get your package manager with these commands.<br />
 In your terminal: <br />
